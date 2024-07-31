@@ -21,5 +21,10 @@ public class HelloSpringController {
 		
 	}
 	
-
+	@GetMapping("/home")
+	public String home() {
+		
+		return "home";
+		
+	}
 }
